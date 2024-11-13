@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # 뉴스 기사(본문일수록 정확도 높음)
-news_article = "기억해줘 이태원 참사 2주기…과제는 특조위로"
+news_article = "‘쏘니’ 드디어 돌아오나? AV전 출전 가능성↑ 포스테코글루 감독 “훈련 소화했어, 마지막 훈련만 통과하면 괜찮을 것”"
 
 # 키워드 로드
 with open('news.json', 'r', encoding='utf-8') as f:
